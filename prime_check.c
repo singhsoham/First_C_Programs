@@ -1,6 +1,6 @@
 //write a C program to check whether a number is prime or not
 #include<stdio.h>
-#include <windows.h> 
+
 void red () {
   printf("\033[1;31m");
 }
@@ -33,7 +33,7 @@ yahape:
             bool = 1;
         }
        printf("\nChecking if %d is factor...\n",i);
-       //sleep(1);
+       sleep(1);
          if(bool==1){
              printf("\033[0;32m");
              printf("%d is a factor\n",i);
